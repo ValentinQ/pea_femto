@@ -2,9 +2,9 @@ name: environment
 channels:
   - pea
 dependencies:
-  - numpy
   - pandas
-  - scipy
+  - numpy
   - matplotlib
+  - scipy
   - bokeh
   - glob
