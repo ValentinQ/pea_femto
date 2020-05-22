@@ -7,4 +7,3 @@ dependencies:
   - matplotlib
   - scipy
   - bokeh
-  - glob
