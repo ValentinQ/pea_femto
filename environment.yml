@@ -7,3 +7,4 @@ dependencies:
   - matplotlib
   - scipy
   - bokeh
+  - jupyter_contrib_nbextensions
