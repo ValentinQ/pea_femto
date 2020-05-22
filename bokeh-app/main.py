@@ -17,7 +17,7 @@ energies = np.array([80,150,250,400,650])
 all_data={}
 
 for value in energies:
-    name = 'pea_'+str(value)+'nj.txt'
+    name = 'bokeh-app/pea_'+str(value)+'nj.txt'
     data = pd.read_csv(name)
     data.set_index(['time ps'], inplace=True)
     data.columns = data.columns.values.astype(float)
