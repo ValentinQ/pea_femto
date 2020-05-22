@@ -1,6 +1,6 @@
 name: environment
 channels:
-  - pea
+  - conda-forge
 dependencies:
   - pandas
   - numpy
