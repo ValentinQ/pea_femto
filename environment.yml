@@ -1,13 +1,10 @@
-name: environment
-channels:
-  - conda-forge
 dependencies:
   - pandas
   - numpy
   - matplotlib
   - scipy
   - bokeh
-  - jupyter_contrib_nbextensions
   - pip
   - pip:
     - jupyter-server-proxy
+    - nbserverproxy
