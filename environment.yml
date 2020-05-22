@@ -8,3 +8,6 @@ dependencies:
   - scipy
   - bokeh
   - jupyter_contrib_nbextensions
+  - pip
+  - pip:
+    - jupyter-server-proxy
